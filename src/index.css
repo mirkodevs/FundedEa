@@ -81,7 +81,7 @@ body {
 
 }
 
-.action-btn+h3 {
+.action-btn + h3 {
 
 
   padding: 5px;
@@ -428,7 +428,12 @@ transition: all 0.7s ease-out;
 max-height: 100px;
 padding: 10px 10px;
 }
-.question-and-answer.hidden .answer{
+.visible{
+
+max-height: 100px;
+
+}
+.question-and-answer.answer-hidden .answer{
  
 max-height: 0;
 padding: 0 10px;

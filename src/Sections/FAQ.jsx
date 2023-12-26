@@ -46,7 +46,7 @@ FAQ
 </button>
 {FaqData.map((one,idx) => {
 const isVisible = visibles.indexOf(idx) !== -1 
-const dynamicClass = isVisible ? "visible" : "hidden"
+const dynamicClass = isVisible ? "answer-visible" : "answer-hidden"
 
 return (
 <article className={`question-and-answer ${dynamicClass}`} key={one.text}  onClick={() => handleClick(idx)}>
