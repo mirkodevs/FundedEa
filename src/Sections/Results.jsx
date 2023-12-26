@@ -5,7 +5,7 @@ export default function Results() {
       <section id="results">
         <section className="main-section">
           <section>
-            <h2>CLIENT RESULTS</h2>
+            <h2 className="text-center" >CLIENT RESULTS</h2>
             <button
               className="action-btn"
               style={{ maxWidth: "1000px", margin: "15px auto" }}

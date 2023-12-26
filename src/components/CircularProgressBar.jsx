@@ -43,7 +43,7 @@ export default function CircularProgressBar({ percent, vantage }) {
         <progress value="75" min="0" max="100"></progress>
         {percent}
       </div>
-      <h4 style={{ marginTop: "30px" }}>{vantage}</h4>
+      <h4 style={{ marginTop: "30px" }} className="text-center">{vantage}</h4>
     </section>
   );
 }
