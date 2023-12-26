@@ -1,5 +1,5 @@
 import MainSection from "../components/MainSection";
-import IMG from "../assets/GetFUnded.png";
+import IMG from "../assets/GetFunded.png";
 export default function GetStarted() {
   return (
     <MainSection id="get-started">
