@@ -30,6 +30,8 @@ export default function CircularProgressBar({ percent, vantage }) {
 
   
     return (
+
+      
     <section ref = {progressBarRef}>
       <div
       className={`progress-bar ${isVisible ? 'visible' : ''}`}
