@@ -34,7 +34,7 @@ export default function CircularProgressBar({ percent, vantage }) {
       
     <section ref = {progressBarRef}>
       <div
-      className={`progress-bar ${isVisible ? 'visible' : ''}`}
+      className="progress-bar"
         style={{
           background: `radial-gradient(closest-side, #191919 79%, transparent 80% 100%), conic-gradient(#65B741 ${ isVisible ? percent : "0%"}, #161616 0)`,
           transition: "all 2s ease-out"
